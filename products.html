@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Products | Sunshine Colours</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container nav">
+      <a class="brand" href="index.html"><div class="brand-mark">SC</div><div class="brand-copy"><strong>Sunshine Colours</strong><span>Premium frit solutions</span></div></a>
+      <button class="nav-toggle">☰</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li><li><a href="products.html">Products</a></li><li><a href="applications.html">Applications</a></li><li><a href="about.html">About</a></li><li><a href="downloads.html">Downloads</a></li><li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-cta"><a class="btn btn-primary" href="contact.html">Get Quote</a></div>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow">Dynamic catalogue</span>
+      <h1>Product Catalogue</h1>
+      <p>Sunshine Colours product families across enamel frits, ceramic and tableware frits, abrasive frits, and glass colour / decal frits.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="filter-panel reveal">
+        <input id="productSearch" type="text" placeholder="Search by code, product name, application or category" />
+        <select id="categoryFilter"><option value="all">All Categories</option></select>
+      </div>
+      <div id="productGrid" class="product-grid"></div>
+    </div>
+  </section>
+
+  <footer class="footer"><div class="container footer-grid"><div>© <span id="year"></span> Sunshine Colours.</div><div><a href="downloads.html">Downloads</a> · <a href="contact.html">Contact</a></div></div></footer>
+  <script src="assets/js/products.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
