@@ -120,7 +120,7 @@ window.SUNSHINE_PRODUCTS = [
     name: 'Stoneware / Cookware Frit',
     category: 'Ceramic & Tableware Frits',
     subcategory: 'High Temperature Frits',
-    image: 'assets/images/Ceramic 6.jpg',
+    image: 'assets/images/ceramic 6.jpg',
     summary: 'High-temperature transparent base frit for stoneware, cookware, and ceramic glaze systems.',
     applications: ['Stoneware ceramics', 'Cookware glazes', 'Ceramic tableware'],
     firing: '1000–1050°C',
