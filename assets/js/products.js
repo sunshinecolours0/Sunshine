@@ -120,7 +120,7 @@ window.SUNSHINE_PRODUCTS = [
     name: 'Stoneware / Cookware Frit',
     category: 'Ceramic & Tableware Frits',
     subcategory: 'High Temperature Frits',
-    image: 'assets/images/ceramic 6.jpg',
+    image: 'assets/images/Ceramic 6.jpg'
     summary: 'High-temperature transparent base frit for stoneware, cookware, and ceramic glaze systems.',
     applications: ['Stoneware ceramics', 'Cookware glazes', 'Ceramic tableware'],
     firing: '1000–1050°C',
@@ -166,7 +166,7 @@ window.SUNSHINE_PRODUCTS = [
     name: 'Economic Opaque Frit',
     category: 'Ceramic & Tableware Frits',
     subcategory: 'High Temperature Frits',
-    image: 'assets/images/ceramic 2.jpg',
+    image: 'assets/images/Ceramic 2.jpg'
     summary: 'Cost-effective opaque frit for mass-production ceramic applications requiring good opacity at optimized cost.',
     applications: ['Mass-production ceramics', 'Cookware glaze systems', 'Industrial ceramic coatings'],
     firing: '1020–1080°C',
@@ -373,7 +373,7 @@ window.SUNSHINE_PRODUCTS = [
     name: 'Diamond Tool Bonding Frit',
     category: 'Abrasive Frits',
     subcategory: 'Diamond Tool Bonding Frits',
-    image: 'assets/images/abrasive 1.jpg',
+    image: 'assets/images/Abrasive 1.jpg'
     summary: 'High-performance bonding frit for diamond tools with strong diamond retention and superior cutting performance.',
     applications: ['Diamond wheels', 'Diamond segments', 'Core drill bits'],
     firing: '800–870°C',
