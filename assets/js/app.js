@@ -107,11 +107,7 @@ function initProductDetail() {
         <h1>${product.name}</h1>
         <p class="lead">${product.summary}</p>
         <div class="detail-cta-group">
-          <button class="btn btn-primary open-datasheet" data-pdf="${product.pdf}">
-  View DataSheet
-</button>
-
-
+          <a class="btn btn-primary" href="assets/docs/Datasheet-2.pdf" target="_blank">View DataSheet</a>
           <a class="btn btn-outline" href="contact.html">Send Inquiry</a>
         </div>
       </div>
@@ -194,39 +190,11 @@ function initYear() {
   if (year) year.textContent = new Date().getFullYear();
 }
 
-function initPDFViewer() {
-  const modal = document.getElementById("pdfModal");
-  const frame = document.getElementById("pdfFrame");
-  const closeBtn = document.querySelector(".close-pdf");
-
-  document.addEventListener("click", function(e) {
-    if (e.target.classList.contains("open-datasheet")) {
-      const pdf = e.target.getAttribute("data-pdf");
-      frame.src = pdf;
-      modal.style.display = "block";
-    }
-  });
-
-  closeBtn.addEventListener("click", () => {
-    modal.style.display = "none";
-    frame.src = "";
-  });
-
-  window.addEventListener("click", (e) => {
-    if (e.target === modal) {
-      modal.style.display = "none";
-      frame.src = "";
-    }
-  });
-}
-
-
-
 document.addEventListener('DOMContentLoaded', () => {
   initCatalogue();
   initProductDetail();
-  initBannerSlider();    
+  initBannerSlider();
+  initReveal();
   initMenu();
-   initPDFViewer(); // ✅ ADD THIS
   initYear();
 });
