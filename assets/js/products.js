@@ -486,7 +486,7 @@ window.SUNSHINE_PRODUCTS = [
   category: 'Ceramic & Tableware Frits',
   subcategory: 'Low Temperature Flux Frits',
   image: 'assets/images/ceramic 6.jpg',
-    pdf:'assets/docs/lead bisilicate.pdf'
+    pdf:'assets/docs/lead bisilicate.pdf',
   summary: 'Low-melting lead-based flux frit designed for excellent flow, adhesion, and glossy finish in low-temperature decorative applications.',
   applications: [
     'Ceramic decals (overglaze)',
