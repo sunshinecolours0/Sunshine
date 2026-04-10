@@ -107,7 +107,7 @@ function initProductDetail() {
         <h1>${product.name}</h1>
         <p class="lead">${product.summary}</p>
         <div class="detail-cta-group">
-          <<button class="btn btn-primary open-datasheet" data-pdf="${product.pdf}">
+          <button class="btn btn-primary open-datasheet" data-pdf="${product.pdf}">
   View DataSheet
 </button>
           <a class="btn btn-outline" href="contact.html">Send Inquiry</a>
