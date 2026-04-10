@@ -704,6 +704,37 @@ window.SUNSHINE_PRODUCTS = [
       ['Thermal Stability', 'Good']
     ]
   }
+},
+  {
+  id: 'bm-001',
+  code: 'BM-001',
+  name: 'Bitumen Mastic',
+  category: 'Protective Coatings',
+  subcategory: 'Bituminous Coatings',
+  image: 'assets/images/bitumen-mastic.jpg',
+  summary: 'Black anticorrosive bituminous coating for water tanks, steel & masonry protection.',
+  firing: 'Air Dry',
+  applications: ['Water tanks', 'Steel structures', 'Masonry', 'Metal surfaces'],
+  
+  // ✅ ADD THIS
+  datasheet: 'assets/docs/BITUMEN-MASTIC.pdf',
+
+  features: [
+    'Single component',
+    'Quick drying',
+    'Low viscosity',
+    'Anti-corrosive'
+  ],
+
+  details: {
+    description: 'Bitumen Mastic is a black bituminous anticorrosive paint suitable for brush application.',
+    properties: [
+      ['Colour', 'Black'],
+      ['Dry Time', '20–30 min touch, 24 hr hard'],
+      ['Coverage', '10 sq.m/litre'],
+      ['Solid Content', '55%']
+    ]
+  }
 }
 ];
 
